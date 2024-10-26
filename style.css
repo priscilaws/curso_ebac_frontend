@@ -1,0 +1,16 @@
+label {
+    color: white;
+}
+
+body {
+    background-color: black;
+}
+h1 {
+    color: white;
+}
+.botaosend{
+    background-color: greenyellow;
+}
+.botaoreset{
+    background-color: palevioletred;
+}
