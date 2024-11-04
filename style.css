@@ -1,16 +1,15 @@
-label {
-    color: white;
-}
-
-body {
-    background-color: white;
-}
-h1 {
+H1 {
     color: black;
 }
-.botaosend{
-    background-color: greenyellow;
+#economy h2 {
+    color: gold;
 }
-.botaoreset{
-    background-color: palevioletred;
+#sports h2 {
+    color: green;
+}
+#tecnology h2 {
+    color: blueviolet;
+}
+#social h2 {
+    color: orangered;
 }
