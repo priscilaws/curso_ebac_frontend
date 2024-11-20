@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validação de Formulário</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+    <h1>Exercício JS</h1>
+    <form id="valida-form">
+        <!-- <label for="campoA">Campo A:</label> -->
+        <input type="number" id="campoA" min="0" max="999" name="campoA" placeholder="CampoA" required>
+        <!-- <label for="campoB">Campo B:</label> -->
+        <input type="number" id="campoB" min="0" max="999" name="campoB" placeholder="CampoB" required>
+        <button type="submit">Validar</button>
+    </form>
+    <!-- <p>Formulário válido! O número B é maior que o número A.</p>
+    <p>Formulário inválido! O número B deve ser maior que o número A.</p>
+    <div id="mensagem"></div> -->
+</div>
+<div id="mensagem"></div>
+<script src="./exercicio-js.js"></script>
+</body>
+</html>
