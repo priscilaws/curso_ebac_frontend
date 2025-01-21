@@ -1,0 +1,25 @@
+{
+  "name": "curso_ebac_frontend",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/priscilaws/curso_ebac#readme",
+  "bugs": {
+    "url": "https://github.com/priscilaws/curso_ebac/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/priscilaws/curso_ebac.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "less": "lessc src/main.less build/styles.css"
+
+  },
+  "devDependencies": {
+    "less": "^4.2.2"
+  }
+}
