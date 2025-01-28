@@ -1,0 +1,25 @@
+{
+  "name": "curso_ebac_frontend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "sass": "^1.83.4"
+  },
+  "scripts": {
+    "build": "sass main.scss dist/main.css",
+    "watch": "sass main.scss dist/main.css --watch" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/priscilaws/curso_ebac.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/priscilaws/curso_ebac/issues"
+  },
+  "homepage": "https://github.com/priscilaws/curso_ebac#readme",
+  "description": ""
+}
