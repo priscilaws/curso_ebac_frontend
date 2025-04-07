@@ -20,5 +20,10 @@ document.addEventListener('DOMContentLoaded', function () {
             repos.innerText = json.public_repos;
             linkElement.href = json.html_url;
         })
+
+        .catch(function (error) {
+            console.error('Erro ao buscar dados do GitHub:', error);
+            nameElement.innerText = 'Erro ao carregar dados';
+        })
 })
 
