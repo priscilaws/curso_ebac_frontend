@@ -8,8 +8,13 @@ document.addEventListener('DOMContentLoaded', function () {
     const linkElement = document.querySelector('#link');
 
     fetch('https://api.github.com/users/priscilaws')
+
         .then(function (res) {
+            if (!res.ok) {
+                throw new Error(`Erro na resposta: ${res.status}`);
+            }
             return res.json();
+
         })
         .then(function (json) {
             nameElement.innerText = json.name;
@@ -24,6 +29,7 @@ document.addEventListener('DOMContentLoaded', function () {
         .catch(function (error) {
             console.error('Erro ao buscar dados do GitHub:', error);
             nameElement.innerText = 'Erro ao carregar dados';
+            alert('Ocorreu um erro ao buscar os dados do GitHub. Tente novamente mais tarde.');
         })
 })
 
