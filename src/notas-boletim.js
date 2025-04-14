@@ -7,12 +7,9 @@ const estudantes = [
 ];
 
 const filtraAprovados = lista => lista.filter(estudantes => estudantes.nota >= 6)
-const filtraReprovados = lista => lista.filter(estudantes => estudantes.nota < 6)
+
 
 const alunosAprovados = filtraAprovados(estudantes);
 console.log("Alunos provados:");
 console.log(alunosAprovados);
 
-const alunosReprovados = filtraReprovados(estudantes);
-console.log("Alunos reprovados:");
-console.log(alunosReprovados);
