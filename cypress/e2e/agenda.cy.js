@@ -52,7 +52,7 @@ describe('Testes da Agenda de Contatos', () => {
     cy.contains('Adicionar').click();
 
 
-    cy.contains(nome).parents('div').first().within(() => {
+    cy.contains(nome).parents('div').parents('div').first().within(() => {
         cy.get('button.delete').click();
     });
 
